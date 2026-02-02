@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>DesignDiva — Tha DollHouse</title>
+<link rel="stylesheet" href="assets/css/style.css"/></head>
+<body data-bot="DesignDiva"><div class="wrap">
+<div class="topbar"><div class="brand"><img src="assets/img/cards/card_designdiva.png" alt="DesignDiva"/>
+<div><div class="name">Tha DollHouse</div><div class="sub">DesignDiva • Live Demo</div></div></div>
+<div class="badge"><a href="index.html" style="text-decoration:none">← Back to all bots</a></div></div>
+
+<section class="bot-hero" data-hero-for="DesignDiva">
+<img class="card" src="assets/img/cards/card_designdiva.png" alt="DesignDiva pricing card"/>
+<div><h1 style="color:#b9922d">DesignDiva</h1><p>Templates, brand palettes, logo ideas & pin generator.</p>
+<div class="btnRow"><a class="btn demo" href="#demo">Try Demo</a><a class="btn buy" href="#buy">Buy $39</a></div>
+<div style="margin-top:12px" class="small">Purchased-mode demo: unlimited runs • Chat Mode (typed) or Feature Mode (instant).</div>
+</div></section>
+
+<section class="section"><h2>Features</h2><div id="features" class="features"></div></section>
+
+<section class="section" id="demo"><h2>Demo — <span id="featureName"></span></h2>
+<div class="demoShell"><div class="demoTop"><div class="left">
+<div class="modeToggle"><button id="modeChat" class="active">Chat Mode</button><button id="modeFeature">Feature Mode</button></div>
+<select id="sampleSelect"></select><div class="small" id="modeHint">Chat Mode (typed response)</div>
+</div></div>
+<div class="demoBody">
+<label>Try a sample or write your own</label>
+<textarea id="prompt" placeholder="Type here..."></textarea>
+<div class="runRow"><button class="run" id="runBtn">Run Demo</button><button class="clear" id="clearBtn">Clear</button></div>
+<div class="output" id="output"></div>
+<div class="small">Tip: choose a different feature from the dropdown to swap sample prompts.</div>
+</div></div></section>
+
+<section class="section" id="buy"><h2>Purchase</h2>
+<p class="small">Replace this button with your Stripe checkout link when ready.</p>
+<div class="btnRow"><a class="btn buy" href="#" onclick="alert('Add Stripe link here for DesignDiva.');return false;">Buy DesignDiva — $39</a>
+<a class="btn demo" href="#demo">Back to Demo</a></div></section>
+
+<div class="footer">© Tha DollHouse • DesignDiva</div></div>
+<script>window.BOT_DATA=window.BOT_DATA||{};window.BOT_DATA["DesignDiva"]={"name": "DesignDiva", "bg": "#ffffff", "features": [["Brand Palette", "Teal/black/gold palette + usage guidance."], ["Font Pairing", "Luxury headline + clean body fonts."], ["Template Brief", "Design brief for Canva templates."], ["Visual Direction", "Moodboard-style guidance for branding."]], "samples": {"Palette": "Create a luxe teal + metallic gold palette for Tha DollHouse.", "Font Pair": "Suggest font pairings similar to the logo style.", "Template Brief": "Write a Canva template brief for a pricing card set."}};</script>
+<script src="assets/js/main.js"></script>
+</body></html>

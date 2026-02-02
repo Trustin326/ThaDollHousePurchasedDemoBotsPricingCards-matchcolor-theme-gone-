@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>BizBot — Tha DollHouse</title>
+<link rel="stylesheet" href="assets/css/style.css"/></head>
+<body data-bot="BizBot"><div class="wrap">
+<div class="topbar"><div class="brand"><img src="assets/img/cards/card_bizbot.png" alt="BizBot"/>
+<div><div class="name">Tha DollHouse</div><div class="sub">BizBot • Live Demo</div></div></div>
+<div class="badge"><a href="index.html" style="text-decoration:none">← Back to all bots</a></div></div>
+
+<section class="bot-hero" data-hero-for="BizBot">
+<img class="card" src="assets/img/cards/card_bizbot.png" alt="BizBot pricing card"/>
+<div><h1 style="color:#009f8a">BizBot</h1><p>Business ideas, offers, scripts, funnels & quick estimators.</p>
+<div class="btnRow"><a class="btn demo" href="#demo">Try Demo</a><a class="btn buy" href="#buy">Buy $39</a></div>
+<div style="margin-top:12px" class="small">Purchased-mode demo: unlimited runs • Chat Mode (typed) or Feature Mode (instant).</div>
+</div></section>
+
+<section class="section"><h2>Features</h2><div id="features" class="features"></div></section>
+
+<section class="section" id="demo"><h2>Demo — <span id="featureName"></span></h2>
+<div class="demoShell"><div class="demoTop"><div class="left">
+<div class="modeToggle"><button id="modeChat" class="active">Chat Mode</button><button id="modeFeature">Feature Mode</button></div>
+<select id="sampleSelect"></select><div class="small" id="modeHint">Chat Mode (typed response)</div>
+</div></div>
+<div class="demoBody">
+<label>Try a sample or write your own</label>
+<textarea id="prompt" placeholder="Type here..."></textarea>
+<div class="runRow"><button class="run" id="runBtn">Run Demo</button><button class="clear" id="clearBtn">Clear</button></div>
+<div class="output" id="output"></div>
+<div class="small">Tip: choose a different feature from the dropdown to swap sample prompts.</div>
+</div></div></section>
+
+<section class="section" id="buy"><h2>Purchase</h2>
+<p class="small">Replace this button with your Stripe checkout link when ready.</p>
+<div class="btnRow"><a class="btn buy" href="#" onclick="alert('Add Stripe link here for BizBot.');return false;">Buy BizBot — $39</a>
+<a class="btn demo" href="#demo">Back to Demo</a></div></section>
+
+<div class="footer">© Tha DollHouse • BizBot</div></div>
+<script>window.BOT_DATA=window.BOT_DATA||{};window.BOT_DATA["BizBot"]={"name": "BizBot", "bg": "#f6f2ea", "features": [["Idea Machine", "10 product ideas with niches + angles."], ["Offer Stack", "Main offer + upsells + bonuses."], ["Script Studio", "DM scripts + video scripts."], ["Quick Math", "Simple revenue projections."]], "samples": {"Product Ideas": "Give 10 $7 digital product ideas for busy moms.", "DM Script": "Write a DM script to sell a $39 tool without being pushy.", "Revenue": "Estimate revenue if I sell 5/day at $39 for 30 days."}};</script>
+<script src="assets/js/main.js"></script>
+</body></html>

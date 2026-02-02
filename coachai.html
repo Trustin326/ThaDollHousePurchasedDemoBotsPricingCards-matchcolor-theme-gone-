@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CoachAI — Tha DollHouse</title>
+<link rel="stylesheet" href="assets/css/style.css"/></head>
+<body data-bot="CoachAI"><div class="wrap">
+<div class="topbar"><div class="brand"><img src="assets/img/cards/card_coachai.png" alt="CoachAI"/>
+<div><div class="name">Tha DollHouse</div><div class="sub">CoachAI • Live Demo</div></div></div>
+<div class="badge"><a href="index.html" style="text-decoration:none">← Back to all bots</a></div></div>
+
+<section class="bot-hero" data-hero-for="CoachAI">
+<img class="card" src="assets/img/cards/card_coachai.png" alt="CoachAI pricing card"/>
+<div><h1 style="color:#0ab3b3">CoachAI</h1><p>Mindset coach, habit tracker & focus mentor.</p>
+<div class="btnRow"><a class="btn demo" href="#demo">Try Demo</a><a class="btn buy" href="#buy">Buy $39</a></div>
+<div style="margin-top:12px" class="small">Purchased-mode demo: unlimited runs • Chat Mode (typed) or Feature Mode (instant).</div>
+</div></section>
+
+<section class="section"><h2>Features</h2><div id="features" class="features"></div></section>
+
+<section class="section" id="demo"><h2>Demo — <span id="featureName"></span></h2>
+<div class="demoShell"><div class="demoTop"><div class="left">
+<div class="modeToggle"><button id="modeChat" class="active">Chat Mode</button><button id="modeFeature">Feature Mode</button></div>
+<select id="sampleSelect"></select><div class="small" id="modeHint">Chat Mode (typed response)</div>
+</div></div>
+<div class="demoBody">
+<label>Try a sample or write your own</label>
+<textarea id="prompt" placeholder="Type here..."></textarea>
+<div class="runRow"><button class="run" id="runBtn">Run Demo</button><button class="clear" id="clearBtn">Clear</button></div>
+<div class="output" id="output"></div>
+<div class="small">Tip: choose a different feature from the dropdown to swap sample prompts.</div>
+</div></div></section>
+
+<section class="section" id="buy"><h2>Purchase</h2>
+<p class="small">Replace this button with your Stripe checkout link when ready.</p>
+<div class="btnRow"><a class="btn buy" href="#" onclick="alert('Add Stripe link here for CoachAI.');return false;">Buy CoachAI — $39</a>
+<a class="btn demo" href="#demo">Back to Demo</a></div></section>
+
+<div class="footer">© Tha DollHouse • CoachAI</div></div>
+<script>window.BOT_DATA=window.BOT_DATA||{};window.BOT_DATA["CoachAI"]={"name": "CoachAI", "bg": "#f6f2ea", "features": [["Goal Map", "Turn a big goal into a 30\u2011day plan with milestones."], ["Habit Builder", "Create tiny daily habits + reminders you can stick to."], ["Motivation Script", "Generate hype scripts, affirmations, and pep talks."], ["Accountability Check\u2011in", "Weekly progress review + next steps."]], "samples": {"30\u2011Day Plan": "Create a 30-day plan to start selling a $7 digital product.", "Affirmations": "Write 10 affirmations for a confident creator mindset.", "Focus Sprint": "Design a 2-hour deep work sprint schedule for today."}};</script>
+<script src="assets/js/main.js"></script>
+</body></html>

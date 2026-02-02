@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SellerPro — Tha DollHouse</title>
+<link rel="stylesheet" href="assets/css/style.css"/></head>
+<body data-bot="SellerPro"><div class="wrap">
+<div class="topbar"><div class="brand"><img src="assets/img/cards/card_sellerpro.png" alt="SellerPro"/>
+<div><div class="name">Tha DollHouse</div><div class="sub">SellerPro • Live Demo</div></div></div>
+<div class="badge"><a href="index.html" style="text-decoration:none">← Back to all bots</a></div></div>
+
+<section class="bot-hero" data-hero-for="SellerPro">
+<img class="card" src="assets/img/cards/card_sellerpro.png" alt="SellerPro pricing card"/>
+<div><h1 style="color:#0c554f">SellerPro</h1><p>Product blueprint, pricing wizard, sales page & email funnel.</p>
+<div class="btnRow"><a class="btn demo" href="#demo">Try Demo</a><a class="btn buy" href="#buy">Buy $39</a></div>
+<div style="margin-top:12px" class="small">Purchased-mode demo: unlimited runs • Chat Mode (typed) or Feature Mode (instant).</div>
+</div></section>
+
+<section class="section"><h2>Features</h2><div id="features" class="features"></div></section>
+
+<section class="section" id="demo"><h2>Demo — <span id="featureName"></span></h2>
+<div class="demoShell"><div class="demoTop"><div class="left">
+<div class="modeToggle"><button id="modeChat" class="active">Chat Mode</button><button id="modeFeature">Feature Mode</button></div>
+<select id="sampleSelect"></select><div class="small" id="modeHint">Chat Mode (typed response)</div>
+</div></div>
+<div class="demoBody">
+<label>Try a sample or write your own</label>
+<textarea id="prompt" placeholder="Type here..."></textarea>
+<div class="runRow"><button class="run" id="runBtn">Run Demo</button><button class="clear" id="clearBtn">Clear</button></div>
+<div class="output" id="output"></div>
+<div class="small">Tip: choose a different feature from the dropdown to swap sample prompts.</div>
+</div></div></section>
+
+<section class="section" id="buy"><h2>Purchase</h2>
+<p class="small">Replace this button with your Stripe checkout link when ready.</p>
+<div class="btnRow"><a class="btn buy" href="#" onclick="alert('Add Stripe link here for SellerPro.');return false;">Buy SellerPro — $39</a>
+<a class="btn demo" href="#demo">Back to Demo</a></div></section>
+
+<div class="footer">© Tha DollHouse • SellerPro</div></div>
+<script>window.BOT_DATA=window.BOT_DATA||{};window.BOT_DATA["SellerPro"]={"name": "SellerPro", "bg": "#f6f2ea", "features": [["Offer Builder", "Define audience, promise, deliverables, bonuses."], ["Pricing Wizard", "3-tier pricing with value stacking."], ["Sales Page Draft", "Headline \u2192 bullets \u2192 objections \u2192 CTA."], ["Email Funnel", "5-email sequence with subject lines."]], "samples": {"Offer Blueprint": "Build an offer for a Canva template bundle.", "Pricing Tiers": "Create 3 pricing tiers for a $39 AI bot bundle.", "Email Sequence": "Write a 5-email launch sequence for a new product."}};</script>
+<script src="assets/js/main.js"></script>
+</body></html>

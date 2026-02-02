@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>GlamBot — Tha DollHouse</title>
+<link rel="stylesheet" href="assets/css/style.css"/></head>
+<body data-bot="GlamBot"><div class="wrap">
+<div class="topbar"><div class="brand"><img src="assets/img/cards/card_glambot.png" alt="GlamBot"/>
+<div><div class="name">Tha DollHouse</div><div class="sub">GlamBot • Live Demo</div></div></div>
+<div class="badge"><a href="index.html" style="text-decoration:none">← Back to all bots</a></div></div>
+
+<section class="bot-hero" data-hero-for="GlamBot">
+<img class="card" src="assets/img/cards/card_glambot.png" alt="GlamBot pricing card"/>
+<div><h1 style="color:#c79cf2">GlamBot</h1><p>Beauty tips, skincare picks & glam brand voice.</p>
+<div class="btnRow"><a class="btn demo" href="#demo">Try Demo</a><a class="btn buy" href="#buy">Buy $39</a></div>
+<div style="margin-top:12px" class="small">Purchased-mode demo: unlimited runs • Chat Mode (typed) or Feature Mode (instant).</div>
+</div></section>
+
+<section class="section"><h2>Features</h2><div id="features" class="features"></div></section>
+
+<section class="section" id="demo"><h2>Demo — <span id="featureName"></span></h2>
+<div class="demoShell"><div class="demoTop"><div class="left">
+<div class="modeToggle"><button id="modeChat" class="active">Chat Mode</button><button id="modeFeature">Feature Mode</button></div>
+<select id="sampleSelect"></select><div class="small" id="modeHint">Chat Mode (typed response)</div>
+</div></div>
+<div class="demoBody">
+<label>Try a sample or write your own</label>
+<textarea id="prompt" placeholder="Type here..."></textarea>
+<div class="runRow"><button class="run" id="runBtn">Run Demo</button><button class="clear" id="clearBtn">Clear</button></div>
+<div class="output" id="output"></div>
+<div class="small">Tip: choose a different feature from the dropdown to swap sample prompts.</div>
+</div></div></section>
+
+<section class="section" id="buy"><h2>Purchase</h2>
+<p class="small">Replace this button with your Stripe checkout link when ready.</p>
+<div class="btnRow"><a class="btn buy" href="#" onclick="alert('Add Stripe link here for GlamBot.');return false;">Buy GlamBot — $39</a>
+<a class="btn demo" href="#demo">Back to Demo</a></div></section>
+
+<div class="footer">© Tha DollHouse • GlamBot</div></div>
+<script>window.BOT_DATA=window.BOT_DATA||{};window.BOT_DATA["GlamBot"]={"name": "GlamBot", "bg": "#0b0b0f", "features": [["Signature Look", "Define a signature glam style for your brand."], ["Skincare Routine", "AM/PM routine based on goals."], ["Product Picks", "Curated product list by budget."], ["Brand Voice", "Glamorous, confident marketing tone."]], "samples": {"Brand Voice": "Write a luxury glam brand voice guide in 8 bullets.", "Skincare": "Create a simple AM/PM skincare routine for glow.", "Launch Copy": "Write launch copy for a beauty digital product."}};</script>
+<script src="assets/js/main.js"></script>
+</body></html>
